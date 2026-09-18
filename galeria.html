@@ -1,34 +1,42 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="hu">
-<head>
+  <head>
     <title>Projekt Galeria - Balog Edit</title>
-</head>
-<body>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="base.css" />
+    <link rel="stylesheet" href="components.css" />
+  </head>
+  <body>
     <header>
-        <h1>Projektek</h1>
-        <nav>
-            <a href="index.html">Főoldal</a> |
-            <a href="rolam.html">Rólam</a> |
-            <a href="projektek.html">Projektek</a> |
-            <a href="galeria.html">Galéria</a> |
-            <a href="kapcsolat.html">Kapcsolat</a>
-        </nav>
+      <h1>Projektek</h1>
+      <nav>
+        <a href="index.html">Főoldal</a> | <a href="rolam.html">Rólam</a> |
+        <a href="projektek.html">Projektek</a> | <a href="galeria.html">Galéria</a> |
+        <a href="kapcsolat.html">Kapcsolat</a> | <a href="js-gyakorlatok.html">JS Gyakorlatok</a>
+      </nav>
     </header>
 
-    <main>
-        <h2>Projekt Galéria</h2>
+    <main class="layout-container">
+      <h2>Projekt Galéria</h2>
+      <div class="gallery">
         <figure>
-            <img src="local_market_architecture.png" alt="Local Market felület" width="800">
-            <figcaption>A Local Market architektúrája</figcaption>
+          <img src="local_market_architecture.png" alt="Local Market felület" width="800" />
+          <figcaption>A Local Market architektúrája</figcaption>
         </figure>
         <figure>
-            <img src="korhaz-app.png" alt="Kórházi app wireframe" height="500">
-            <figcaption>A kórházi mobilalkalmazás foglalási képernyője</figcaption>
+          <img src="korhaz-app.png" alt="Kórházi app wireframe" height="500" />
+          <figcaption>A kórházi mobilalkalmazás foglalási képernyője</figcaption>
         </figure>
+      </div>
+      <a href="index.html"><button class="btn">Vissza a főoldalra</button></a>
     </main>
 
     <footer>
-        <p>Elérhetőség: Marosvásárhely | &copy; 2026 Balog Edit. Minden jog fenntartva.</p>
+      <p>Elérhetőség: Marosvásárhely | &copy; 2026 Balog Edit. Minden jog fenntartva.</p>
     </footer>
-</body>
+  </body>
 </html>

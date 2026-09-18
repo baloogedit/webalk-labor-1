@@ -1,40 +1,74 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="hu">
-<head>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Balog Edit - Portfólió</title>
-</head>
-<body>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="base.css" />
+    <link rel="stylesheet" href="components.css" />
+
+    <style>
+      .highlight {
+        background-color: #e0f2f1;
+        font-weight: bold;
+        padding: 0 4px;
+        border-radius: 4px;
+      }
+      .warning-text {
+        color: #004d40;
+        font-style: italic;
+      }
+    </style>
+  </head>
+  <body>
     <header>
-        <h1>Üdvözöllek a portfóliómban!</h1>
-        <nav>
-            <a href="index.html">Főoldal</a> |
-            <a href="rolam.html">Rólam</a> |
-            <a href="projektek.html">Projektek</a> |
-            <a href="galeria.html">Galéria</a> |
-            <a href="kapcsolat.html">Kapcsolat</a>
-        </nav>
+      <h1>Üdvözöllek a portfóliómban!</h1>
+      <nav>
+        <a href="index.html">Főoldal</a> | <a href="rolam.html">Rólam</a> |
+        <a href="projektek.html">Projektek</a> | <a href="galeria.html">Galéria</a> |
+        <a href="kapcsolat.html">Kapcsolat</a> | <a href="js-gyakorlatok.html">JS Gyakorlatok</a>
+      </nav>
     </header>
 
-    <aside>
+    <div class="layout-container">
+      <aside>
         <h3>Gyorslinkek a projektekhez</h3>
         <ul>
-            <li><a href="projektek.html#local-market">Local Market Web</a></li>
-            <li><a href="projektek.html#korhazi-app">Kórházi előjegyzési app</a></li>
-            <li><a href="projektek.html#neptanc">Néptánc menedzser</a></li>
+          <li><a href="projektek.html#local-market">Local Market Web</a></li>
+          <li>
+            <a href="projektek.html#korhazi-app">Kórházi előjegyzési app</a>
+          </li>
+          <li><a href="projektek.html#neptanc">Néptánc menedzser</a></li>
         </ul>
-    </aside>
+      </aside>
 
-    <main>
+      <main>
         <h2>Főoldal</h2>
-        <p>Szia! Balog Edit vagyok, szoftverfejlesztő és egyetemi hallgató. Nézz körül a portfóliómban!</p>
-        
+        <p>
+          Szia! Balog Edit vagyok, szoftverfejlesztő és egyetemi hallgató. Nézz körül a
+          portfóliómban!
+        </p>
+
         <h3>Egy kis F1 inspiráció</h3>
         <!-- Egy Lando Norris / McLaren videó beágyazása -->
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/8v_JzGj7k1w" title="YouTube video" frameborder="0" allowfullscreen></iframe>
-    </main>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/8v_JzGj7k1w"
+          title="YouTube video"
+          frameborder="0"
+          allowfullscreen
+        ></iframe>
+      </main>
+    </div>
 
     <footer>
-        <p>Elérhetőség: Marosvásárhely | &copy; 2026 Balog Edit. Minden jog fenntartva.</p>
+      <p>Elérhetőség: Marosvásárhely | &copy; 2026 Balog Edit. Minden jog fenntartva.</p>
     </footer>
-</body>
+  </body>
 </html>
