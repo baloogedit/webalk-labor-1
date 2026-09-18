@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="hu">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Gyakorlatok - Balog Edit</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="base.css" />
+    <link rel="stylesheet" href="components.css" />
+  </head>
+  <body>
+    <header>
+      <h1>JavaScript Gyakorlatok</h1>
+      <nav>
+        <a href="index.html">Főoldal</a> | <a href="rolam.html">Rólam</a> |
+        <a href="projektek.html">Projektek</a> | <a href="galeria.html">Galéria</a> |
+        <a href="kapcsolat.html">Kapcsolat</a> |
+        <a href="js-gyakorlatok.html">JS Gyakorlatok</a>
+      </nav>
+    </header>
+
+    <main>
+      <h2>1. Két szám összeadása</h2>
+      <div
+        style="display: flex; gap: 16px; align-items: center; flex-wrap: wrap; margin-bottom: 16px"
+      >
+        <input type="number" id="num1" placeholder="1. szám" style="width: 120px; margin: 0" />
+        <span style="font-size: 24px; font-weight: bold; color: #004d40">+</span>
+        <input type="number" id="num2" placeholder="2. szám" style="width: 120px; margin: 0" />
+        <button class="btn" onclick="calculateSum()">Összeadás</button>
+      </div>
+      <p>Eredmény: <strong id="sumResult" style="color: #00796b; font-size: 1.2rem">-</strong></p>
+
+      <hr style="margin: 32px 0; border: 0; border-top: 1px solid #b2dfdb" />
+
+      <h2>2. Páros vagy páratlan?</h2>
+      <div
+        style="display: flex; gap: 16px; align-items: center; flex-wrap: wrap; margin-bottom: 16px"
+      >
+        <input
+          type="number"
+          id="evenOddInput"
+          placeholder="Írj be egy számot"
+          style="width: 200px; margin: 0"
+        />
+        <button class="btn" onclick="checkEvenOdd()">Ellenőrzés</button>
+      </div>
+      <p>
+        Eredmény: <strong id="evenOddResult" style="color: #00796b; font-size: 1.2rem">-</strong>
+      </p>
+
+      <hr style="margin: 32px 0; border: 0; border-top: 1px solid #b2dfdb" />
+
+      <h2>3. Számláló gombnyomásra</h2>
+      <button class="btn" onclick="incrementCounter()">Növelés</button>
+      <p>Számláló értéke: <strong id="counter">0</strong></p>
+
+      <hr style="margin: 32px 0; border: 0; border-top: 1px solid #b2dfdb" />
+
+      <h2>4. Adat bekérése a felhasználótól</h2>
+      <button class="btn" onclick="askName()">Kérdezd meg a nevét</button>
+      <p id="name" style="margin-top: 16px; font-weight: bold; color: #00796b"></p>
+
+      <hr style="margin: 32px 0; border: 0; border-top: 1px solid #b2dfdb" />
+
+      <h2>5. Visszaszámláló</h2>
+      <button class="btn" onclick="startCountdown()">Indítsd el</button>
+      <p>Hátralévő idő: <strong id="countdown">10</strong> mp</p>
+
+      <hr style="margin: 32px 0; border: 0; border-top: 1px solid #b2dfdb" />
+
+      <h2>6. Tömb és lista (Hobbik)</h2>
+      <ul class="custom-list" id="hobbyList"></ul>
+
+      <hr style="margin: 32px 0; border: 0; border-top: 1px solid #b2dfdb" />
+
+      <h2>7. Tömb elemeinek szorzása</h2>
+      <div
+        style="display: flex; gap: 16px; align-items: center; flex-wrap: wrap; margin-bottom: 16px"
+      >
+        <input
+          type="text"
+          id="arrayInput"
+          placeholder="Pl.: 1, 2, 3, 4"
+          style="width: 200px; margin: 0"
+        />
+        <span style="font-weight: bold; color: #004d40">szorozva ezzel:</span>
+        <input
+          type="number"
+          id="multiplierInput"
+          placeholder="Szorzó"
+          style="width: 100px; margin: 0"
+        />
+        <button class="btn" onclick="multiplyArrayOnScreen()">Számol</button>
+      </div>
+      <p>Eredmény: <strong id="arrayResult" style="color: #00796b; font-size: 1.2rem">-</strong></p>
+
+      <hr style="margin: 32px 0; border: 0; border-top: 1px solid #b2dfdb" />
+
+      <h2>8. Objektum tulajdonságok megjelenítése (Rólam)</h2>
+      <ul class="custom-list" id="personInfo"></ul>
+
+      <hr style="margin: 32px 0; border: 0; border-top: 1px solid #b2dfdb" />
+
+      <h2>9. Eseménykezelő kattintásra</h2>
+      <button class="btn" onclick="changeBg()">Háttér színváltás</button>
+
+      <br /><br /><br />
+      <a href="index.html"><button class="btn">Vissza a főoldalra</button></a>
+    </main>
+
+    <footer>
+      <p>Elérhetőség: Marosvásárhely | &copy; 2026 Balog Edit. Minden jog fenntartva.</p>
+    </footer>
+
+    <!-- A JS fájl becsatolása a DOM betöltődése után -->
+    <script src="script.js"></script>
+  </body>
+</html>
