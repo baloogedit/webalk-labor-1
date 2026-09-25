@@ -1,0 +1,130 @@
+/* Global Body Styles */
+body {
+  background: #0b0f14;
+  color: #e6e9ef;
+  font-family:
+    system-ui,
+    -apple-system,
+    Segoe UI,
+    Roboto,
+    Arial;
+  margin: 0;
+  padding: 24px;
+}
+
+nav a {
+  color: #e0f2f1;
+  margin: 0 16px;
+}
+
+a {
+  color: #00796b;
+  text-decoration: none;
+  transition:
+    color 0.3s ease,
+    text-decoration 0.3s ease;
+}
+
+a:hover {
+  color: #004d40;
+  text-decoration: underline;
+}
+
+nav a:hover {
+  color: #00bfa5;
+}
+
+/* Profile Card Styling */
+.profile-card {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+  background: #11161d;
+  border: 1px solid #1f2937;
+  border-radius: 16px;
+  padding: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+}
+
+.profile-card .avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #1f2937;
+}
+
+.profile-card .name {
+  margin: 0;
+  font-size: 50px;
+}
+
+.profile-card .role {
+  margin: 6px 0 10px;
+  color: #9aa4b2;
+}
+
+.profile-card .links a {
+  color: #e6e9ef;
+  text-decoration: none;
+}
+
+.profile-card .links a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Breakpoint for Mobile */
+@media (max-width: 600px) {
+  .profile-card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .profile-card .avatar {
+    width: 84px;
+    height: 84px;
+  }
+}
+
+/* Skills Chip Styling */
+.chip {
+  display: inline-block;
+  margin: 4px 6px 0 0;
+  padding: 6px 10px;
+  border: 1px solid #1f2937;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.03);
+  font-size: 12px;
+}
+
+/* Section Card Styling */
+.section-card {
+  background: #11161d;
+  border: 1px solid #1f2937;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+  margin-top: 20px;
+}
+
+.section-card h2 {
+  margin: 0 0 16px 0;
+  color: #7dd3fc; /* A nice light blue accent for headers */
+  font-size: 20px;
+  letter-spacing: 0.5px;
+}
+
+.section-card ul {
+  margin: 0 0 0 20px;
+  padding: 0;
+}
+
+.section-card li {
+  margin-bottom: 8px;
+  color: #9aa4b2; /* Muted text for descriptions */
+}
+
+.job-title {
+  font-weight: bold;
+  color: #e6e9ef;
+  margin-bottom: 4px;
+}

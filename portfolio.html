@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="hu">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Balog Edit – Portfólió / CV</title>
+    <meta name="description" content="Balog Edit - IT/Computer Science student portfóliója." />
+    <meta name="color-scheme" content="dark" />
+
+    <!-- Linking the separate CSS file -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Web CV</h1>
+      <nav style="padding-bottom: 16px">
+        <a href="index.html">Főoldal</a> | <a href="rolam.html">Rólam</a> |
+        <a href="projektek.html">Projektek</a> | <a href="galeria.html">Galéria</a> |
+        <a href="kapcsolat.html">Kapcsolat</a> | <a href="js-gyakorlatok.html">JS Gyakorlatok</a> |
+        <a href="portfolio.html">Web CV</a>
+      </nav>
+    </header>
+    <main id="app">
+      <!-- Profile Card Section -->
+      <section class="profile-card">
+        <img class="avatar" src="edit_profil.jpg" alt="Balog Edit Profilkép" />
+        <div class="meta">
+          <h1 class="name">Balog Edit</h1>
+          <p class="role">IT/Computer Science student · Târgu Mureș</p>
+          <div class="links">
+            <a href="mailto:editecske09@gmail.com">Email</a> ·
+            <a href="https://www.linkedin.com/in/edit-balog" target="_blank" rel="noopener"
+              >LinkedIn</a
+            >
+            ·
+            <a href="https://github.com/baloogedit" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Bemutatkozás (Introduction) -->
+      <section class="section-card">
+        <h2>Bemutatkozás</h2>
+        <p>
+          Second-year Informatics student at UMFST Tg. Mureş specializing in full-stack web and
+          mobile application development. Passionate about engineering end-to-end applications—from
+          configuring Linux networking environments to designing reactive UIs—using React, .NET, and
+          Java. Proven ability to bridge theoretical algorithms and practical solutions,
+          demonstrated by architecting a modern e-commerce platform, a cross-platform hospital
+          scheduler, and custom management software. Highly collaborative and ready to contribute a
+          detail-oriented, problem-solving mindset to a professional engineering team.
+        </p>
+      </section>
+
+      <!-- Tapasztalat (Experience) -->
+      <section class="section-card">
+        <h2>Tapasztalat</h2>
+        <div class="job-title">Summer Intern - Kadeno Solutions (07/2026 - 08/2026)</div>
+        <ul>
+          <li>
+            Collaborated within a team to architect and build a responsive, mobile-first single-page
+            application (SPA) connecting local vendors with customers.
+          </li>
+          <li>
+            Implemented an atomic design methodology to create 15+ scalable, reusable UI components,
+            including dynamic search bars and stateful cart management modals.
+          </li>
+          <li>
+            Engineered specialized frontend views for complex user journeys, integrating custom
+            React hooks alongside Zustand for efficient global state management.
+          </li>
+          <li>
+            Configured protected routing to enforce secure user authentication and role-based access
+            control (RBAC).
+          </li>
+          <li>
+            Facilitated seamless frontend-to-backend integration by connecting React components to
+            robust NestJS APIs.
+          </li>
+        </ul>
+
+        <br />
+
+        <div class="job-title">Summer Trainee - Topmotive (06/2026 - 07/2026)</div>
+        <ul>
+          <li>
+            Developed a full-stack Article Management web application utilizing C# and the .NET
+            Blazor framework.
+          </li>
+          <li>
+            Designed and implemented a responsive frontend shopping application featuring dynamic
+            search, a basket, and complete checkout processes.
+          </li>
+          <li>
+            Structured robust C# backend services and managed asset delivery for a Car Shop
+            application.
+          </li>
+        </ul>
+      </section>
+
+      <!-- Oktatás (Education) -->
+      <section class="section-card">
+        <h2>Oktatás</h2>
+        <div class="job-title">
+          Bachelor's Degree in Informatics - George Emil Palade University of Medicine, Pharmacy,
+          Science, and Technology (2024 - Present)
+        </div>
+        <ul>
+          <li>
+            Served as the primary liaison between classmates and professors, attending
+            representative meetings to ensure smooth communication for the class.
+          </li>
+          <li>
+            Supported classmates by distributing study materials and personal notes, while providing
+            peer-to-peer explanations for complex coursework.
+          </li>
+        </ul>
+      </section>
+
+      <!-- Akadémiai Projektek (Academic Projects) -->
+      <section class="section-card">
+        <h2>Akadémiai Projektek</h2>
+        <div class="job-title">Hospital Appointment Scheduler (Flutter, Dart, Firebase)</div>
+        <ul>
+          <li>
+            Developed a cross-platform mobile application in Flutter and Dart featuring 4 core
+            navigation flows designed to streamline the patient scheduling process.
+          </li>
+          <li>
+            Implemented secure user authentication, registration, and persistent session state
+            management utilizing Firebase Auth.
+          </li>
+        </ul>
+        <br />
+        <div class="job-title">Dance Group Management System (Java, Java Swing, JSON, Maven)</div>
+        <ul>
+          <li>
+            Engineered a comprehensive desktop application using Java Swing to streamline
+            scheduling, logistics, and personnel data specifically for a 22-member folk dance
+            ensemble.
+          </li>
+          <li>
+            Applied advanced Object-Oriented Programming (OOP) principles to create an extensible
+            and maintainable codebase.
+          </li>
+        </ul>
+      </section>
+
+      <!-- Készségek (Skills) -->
+      <section class="section-card">
+        <h2>Készségek</h2>
+        <!-- Programming Languages -->
+        <span class="chip">Java</span>
+        <span class="chip">C / C++</span>
+        <span class="chip">C#</span>
+        <span class="chip">TypeScript</span>
+        <span class="chip">JavaScript</span>
+        <span class="chip">Dart</span>
+        <!-- Frontend & Mobile -->
+        <span class="chip">React</span>
+        <span class="chip">React Native</span>
+        <span class="chip">Flutter</span>
+        <span class="chip">HTML</span>
+        <span class="chip">Tailwind CSS</span>
+        <span class="chip">Vite</span>
+        <span class="chip">Blazor</span>
+        <span class="chip">.NET</span>
+        <!-- Backend, Databases & Tools -->
+        <span class="chip">MySQL</span>
+        <span class="chip">MongoDB</span>
+        <span class="chip">NestJS</span>
+        <span class="chip">Firebase</span>
+        <span class="chip">Git</span>
+        <span class="chip">Linux</span>
+      </section>
+
+      <!-- Kapcsolat (Contact) -->
+      <section class="section-card">
+        <h2>Kapcsolat</h2>
+        <ul>
+          <li>
+            <strong>Email:</strong>
+            <a href="mailto:editecske09@gmail.com" style="color: #7dd3fc">editecske09@gmail.com</a>
+          </li>
+          <li><strong>Telefon:</strong> (+40) 770924563</li>
+          <li>
+            <strong>LinkedIn:</strong>
+            <a
+              href="https://www.linkedin.com/in/edit-balog"
+              target="_blank"
+              rel="noopener"
+              style="color: #7dd3fc"
+              >linkedin.com/in/edit-balog</a
+            >
+          </li>
+          <li>
+            <strong>GitHub:</strong>
+            <a
+              href="https://github.com/baloogedit"
+              target="_blank"
+              rel="noopener"
+              style="color: #7dd3fc"
+              >github.com/baloogedit</a
+            >
+          </li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>
