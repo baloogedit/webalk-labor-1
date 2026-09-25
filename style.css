@@ -51,7 +51,7 @@ nav a:hover {
   height: 150px;
   border-radius: 50%;
   object-fit: cover;
-  border: 2px solid #1f2937;
+  border: 2px solid #004d40;
 }
 
 .profile-card .name {
@@ -65,7 +65,7 @@ nav a:hover {
 }
 
 .profile-card .links a {
-  color: #e6e9ef;
+  color: #00796b;
   text-decoration: none;
 }
 
@@ -90,7 +90,7 @@ nav a:hover {
   display: inline-block;
   margin: 4px 6px 0 0;
   padding: 6px 10px;
-  border: 1px solid #1f2937;
+  border: 1px solid #004d40;
   border-radius: 999px;
   background: rgba(255, 255, 255, 0.03);
   font-size: 12px;
@@ -99,7 +99,7 @@ nav a:hover {
 /* Section Card Styling */
 .section-card {
   background: #11161d;
-  border: 1px solid #1f2937;
+  border: 1px solid #004d40;
   border-radius: 16px;
   padding: 20px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
@@ -108,7 +108,7 @@ nav a:hover {
 
 .section-card h2 {
   margin: 0 0 16px 0;
-  color: #7dd3fc; /* A nice light blue accent for headers */
+  color: #00bfa5;
   font-size: 20px;
   letter-spacing: 0.5px;
 }
